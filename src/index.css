@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.stickySignUp {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	float:right;
+}
+
+.stickySignUp button{
+	/*	-ms-transform: rotate(270deg) translate(20px,50px);*/
+	/*    -webkit-transform: rotate(270deg) translate(20px,50px); */
+	transform: rotate(270deg) translate(-150px,30px);
+}
+
+.appBarStyle{
+/*	background-color: #505050;
+	*/
+	background-image: linear-gradient(60deg, #29323c 0%, #34495E 100%);
+}
+
+.mainLogo{
+	color:white !important;
+}
+
+.navHeader{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.mainLogo{
+		color:white !important;
+		text-align: center !important;
+	}
+	.navHeader{
+		text-align: center;
+		background-color: #59BA48;
+	}
+}
+
+.homeViewContainerStyle{
+
+/*
+	background-image: url(./img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+*/
+
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
+/*	background-color: #ccf;*/
+	padding:20px;
+	/*	height:86vh;	*/
+}
+
+.WhatHowWhyContainerStyle{
+	/* background-image: url(./img/logo.png); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20px;
+}
+
+.communityContainerStyle{
+	/* background-image: url(./img/turtle1.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);*/
+	padding:20px;
+}
+
+.plantTheSeedContainerStyle{
+/*
+	background-image: url(./img/vegetable-basket.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	padding:20px;
+}
+
+.partnersContainerStyle{
+	/* background-image: url(./img/IconBackground.png); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20px;
+}
+
+.supportPartnersContainerStyle{
+background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+	padding:20px;
+}
+
+.BlogContainerStyle{
+/*	background-color: #eee;*/
+	padding:20px;
+		/* background-image: url(./img/IconBackground.png); */
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.headings{
+	text-align: center;
+	color: #505050;
+}
+
+.headingsWhite{
+	text-align: center;
+	color: white;
+}
+
+.headingsBlack{
+	text-align: center;
+	color: black;
+}
+
+.headingUnderLine{
+	width:100px;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.whatHowWhyText{
+	min-height: 120px;
+}
+
+.communityMembers{
+	text-align: left;
+	font-size: 20px;
+	height:300px;
+	overflow-y: scroll;
+}
+
+.socialMediaIcons{
+	text-align: left;
+}
+
+.socialIcon{
+	padding: 5px;
+
+}
+
+.footerLinks a{
+	text-decoration: none;
+	text-align: left;
+	color:white;
+	line-height: 24px;
+}
+
+.dietCategorySelector{
+	display:inline-block;
+	padding:10px;
+}
+
+.dietCategorySelector:hover{
+	border: 1px solid #1793CC;
+}
+
+.blogContainerWindow{
+	border: 1px dotted black;
+	border-radius: 1rem;
+	padding: 2rem;
+	background-color: #454545;
+	color:#ddd;
+	margin: 1rem;
+/*
+*/
+}
+
+.blogSelection:hover{
+	border: 1px solid #1793CC;
+}
