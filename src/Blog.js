@@ -57,17 +57,17 @@ class Blog extends React.Component {
 
                  <div class="blogContainerWindow" ref="blogContent">
                     {
-                        // this.state.blogRef == "BlogPost" ?
+                        this.state.blogRef == "BlogPost" ?
+                            <p>blog post </p>
+                           // <BlogPost/>
 
-                        //     <BlogPost />
+                            :
 
-                        //     :
-
-                        //     this.state.blogRef == "NewPost" ?
-
-                        //         <NewPost />
-                        //     :
-                        //         null
+                            this.state.blogRef == "NewPost" ?
+                                <p>new post</p>
+                                // <NewPost/>
+                            :
+                                null
 				}
                 </div>
 
